@@ -5,7 +5,6 @@ import pydeck as pdk
 import numpy as np
 import os
 
-!uv pip install streamlit_folium
 ##### Streamlit configuration #####
 st.set_page_config(
     page_title="Proximity to amenities",
