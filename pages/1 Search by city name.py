@@ -20,12 +20,16 @@ st.logo('images/Logo_blue.png',
         icon_image = 'images/favicon.png')
 
 
-poi_options = ["Libraries", 'Hospitals', 'Supermarkets']
+
 poi_tags = {
     "Libraries": {"amenity": "library"},
     "Hospitals": {"healthcare" : "hospital"},
-    'Supermarkets': {"shop": "supermarket"}
+    'Supermarkets': {"shop": "supermarket"},
+    'Schools': {"amenity": "school"},
+    'Supermarkets': {"shop": 'supermarket'}
 }
+
+poi_options = poi_tags.keys()
 
 cities = {'Barcelona, Spain': 'R347950',
           'Agadir, Morocco':'R2529624',
